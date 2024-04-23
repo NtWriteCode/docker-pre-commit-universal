@@ -2,6 +2,6 @@
 - id: docker-compose-check
   name: Validate docker compose files
   description: Checks that docker compose files are valid
-  language: script
-  entry: compose-check.sh
+  language: python
+  entry: src/compose-check.py
   files: (docker-)?compose\.ya?ml$
