@@ -7,7 +7,7 @@ packages = ["docker_pre_commit_universal"]
 
 [project]
 name = "docker_pre_commit_universal"
-version = "4.0.1"
+version = "4.0.2"
 
 [project.scripts]
 compose_check = "docker_pre_commit_universal.compose_check:main"

@@ -8,7 +8,7 @@ Add the following to your `.pre-commit-config.yaml` file
 
 ```yaml
   - repo: https://github.com/NtWriteCode/docker-pre-commit-universal
-    rev: v0.0.1
+    rev: v4.0.2
     hooks:
       - id: docker-compose-check
 ```
